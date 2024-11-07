@@ -1,0 +1,198 @@
+body {
+    margin: 0;
+    font-family: Roboto;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.cont {
+    /* width: 1000px; */
+    display: flex;
+    flex-direction: column;
+}
+
+.header,
+.footer {
+    height: 50px;
+    background-color: #1f2937;
+    flex-shrink: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px;
+    /* margin-inline: auto; */
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#logo img{
+    height: 30px;
+    width: 60px;
+}
+
+.header-links>ul {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-inline: 0;
+}
+
+.header-links a,
+.top-words-subtitle{
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+/* .header-links>ul>li {
+    color: #e5e7eb;
+} */
+
+#logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.top {
+    height: 500px;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    background-image: url('./img/barber-shop-6797761_1920.jpg');
+    background-size: cover;
+    background-position: 0% 30%;
+    padding: 100px 100px;
+}
+
+.top-words-title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    width: 400px;
+    flex-wrap: wrap;
+    margin-bottom: 3px;
+}
+
+.top-words-subtitle {
+    width: 450px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    padding: 30px
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin-bottom: 30px;
+}
+
+.info-pics {
+    display: flex;
+    /* justify-content: space-between; */
+    flex-shrink: 0;
+    width: 1050px;
+    gap: 30px;
+}
+
+.info-pics-imginfo img{
+    max-height: 300px;
+    width: 250px;
+    object-fit: cover;
+    border: solid;
+    border-color: #3882f6;
+    border-radius: 12px;
+}
+
+img[alt="info-pics-img1"] {
+    object-position: 75%;
+}
+
+img[alt="info-pics-img3"] {
+    object-position: 0% 15%;
+}
+
+img[alt="info-pics-img4"] {
+    object-position: 0%;
+}
+
+.info-pics-imginfo p{
+    text-align: center;
+}
+
+.quotes {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    background-color: #e5e7eb;
+    padding: 100px;
+}
+
+.quote {
+    width: 600px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote>p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.quote>span {
+    font-weight: bold;
+    align-self:flex-end;
+    margin-right: 20px;
+}
+
+.signup {
+    height: 30px;
+    width: 100px;
+    border-radius: 4px;
+    background: #3882f6;
+    color: #f9faf8;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    padding: 100px;
+}
+
+.bottom-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 700px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.bottom .signup{
+    border: solid;
+    border-width: 2px;
+    border-color: #f9faf8;
+}
