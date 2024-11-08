@@ -16,14 +16,15 @@ img {
 
 .header,
 .footer {
-    height: 50px;
+    height: 70px;
     background-color: #1f2937;
     flex-shrink: 0;
+    align-items: center;
 }
 
 .header {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     padding: 10px 100px;
     /* margin-inline: auto; */
 }
@@ -37,6 +38,10 @@ img {
 #logo img{
     height: 30px;
     width: 60px;
+}
+
+.header-links {
+    margin-left: auto;
 }
 
 .header-links>ul {
@@ -122,6 +127,11 @@ img {
     border-radius: 12px;
 }
 
+/* haircut titles */
+p>strong {
+    font-size: larger;
+}
+
 img[alt="info-pics-img1"] {
     object-position: 75%;
 }
@@ -160,13 +170,14 @@ img[alt="info-pics-img4"] {
 }
 
 .quote>span {
+    font-size: larger;
     font-weight: bold;
     align-self:flex-end;
     margin-right: 20px;
 }
 
 .signup {
-    height: 30px;
+    height: 35px;
     width: 100px;
     border-radius: 4px;
     background: #3882f6;
@@ -187,12 +198,37 @@ img[alt="info-pics-img4"] {
     width: 700px;
     background-color: #3882f6;
     color: #f9faf8;
-    padding: 20px;
+    padding: 70px;
     border-radius: 12px;
+}
+
+.bottom-cont-info {
+    height: 40px;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.bottom-cont-info > p {
+    margin: 0;
+}
+
+.bottom-cont-info > p ~ p {
+    color: #e5e7eb;
+}
+
+.bottom-cont-info > :first-child {
+    font-size: larger;
+    font-weight: bold;
 }
 
 .bottom .signup{
     border: solid;
     border-width: 2px;
     border-color: #f9faf8;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    color: #e5e7eb;
 }
